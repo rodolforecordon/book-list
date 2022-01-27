@@ -1,0 +1,120 @@
+:root {
+  --primary-light: rgb(240, 240, 240);
+  --primary-dark: rgb(41, 41, 41);
+  --primary-dark-faded: rgb(73, 73, 73);
+}
+
+* {
+  background: var(--primary-dark);
+  color: var(--primary-light);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+button {
+  all: unset;
+  display: revert;
+  padding: 10px;
+  border: 3px solid var(--primary-light);
+  border-radius: 10px;
+}
+button:hover {
+  background: var(--primary-dark-faded);
+}
+button:active {
+  background: var(--primary-light);
+  color: var(--primary-dark);
+}
+
+dialog {
+  margin: auto auto;
+  padding: 10px;
+}
+
+input {
+  all: unset;
+  display: revert;
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  text-align: left;
+  padding: 1px 5px;
+  margin: 3px 7px;
+}
+
+select {
+  all: unset;
+  display: revert;
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  text-align: left;
+  padding: 1px 5px;
+  margin: 3px 7px;
+  width: 415%
+}
+
+label {
+  text-align: right;
+  width: 100%;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+menu {
+  margin-top: 10px;
+}
+
+header {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+h1 {
+  align-self: center;
+  flex: 7;
+}
+
+header > img {
+  flex: 1;
+  padding: 13px;
+}
+
+header > button {
+  flex: 1;
+}
+
+table {
+  margin: 0 auto;
+}
+table > tr > th {
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  font-size: 1.5em;
+  border: 1px solid var(--primary-light);
+}
+table > tr > td {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  border: 1px solid var(--primary-light);
+  padding: 5px;
+  margin: 0;
+}
+
+.pointer {
+  cursor: pointer;
+  margin: 0 2px;
+  font-size: 1em;
+}

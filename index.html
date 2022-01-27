@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <title>Tests</title>
+</head>
+<body>
+  <header>
+    <img src="" alt="">
+    <h1>Books Reading List</h1>
+    <button id="add-book">Add Book</button>
+  </header>
+  <section>
+  </section>
+  <dialog id="add-dialog">
+    <form method="dialog">
+      <p>
+        <label>Title: </label>
+        <input type="text" class="title">
+      </p>
+      <p>
+        <label>Author: </label>
+        <input type="text" class="tel">
+      </p>
+      <p>
+        <label>Pages: </label>
+        <input type="number" class="pages">
+      </p>
+      <p>
+        <label>Read: </label>
+        <select name="read" id="read">
+          <option value="true">Yes</option>
+          <option value="false">No</option>
+        </select>
+      </p>
+      <menu>
+        <button value="cancel">Cancelar</button>
+        <button id="confirm-btn" value="default">Confirmar</button>
+      </menu>
+    </form>
+  </dialog>
+  <script src="./src/js/index.js"></script>
+  <script src="./src/js/getLocalStorage.js"></script>
+</body>
+</html>
